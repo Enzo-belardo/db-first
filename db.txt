@@ -1,9 +1,9 @@
 nome tabella: auto usate
 
 id                         intero       MEDIUMINT          PRIMARY_KEY AUTO_INCREMENT
-modello auto               stringa      VARCHAR(15)        NULL
-anno di produzione         date         YEAR               NOTNULL
-km attuali                 float        FLOAT(8,2)         NOTNULL
+modello_auto               stringa      VARCHAR(15)        NULL
+anno_di_produzione         date         YEAR               NOTNULL
+km_attuali                 float        FLOAT(8,2)         NOTNULL
 alimentazione              stringa      VARCHAR(10)        NOTNULL
 quantita                   intero       SMALLINT           NOTNULL
-prezzo vendita             float        FLOAT(8,2)         NOTNULL 
+prezzo_vendita             float        FLOAT(8,2)         NOTNULL 
